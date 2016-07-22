@@ -1,0 +1,26 @@
+{
+  "name": "list-npm-modules",
+  "version": "0.1.0",
+  "description": "node module wrangler",
+  "keywords": ["git", "patches", "node_modules"],
+  "homepage": "https://github.com/pwnall/list-npm-modules",
+  "author": "Victor Costan <victor@costan.us> (http://www.costan.us)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pwnall/list-npm-modules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pwnall/list-npm-modules/issues"
+  },
+  "dependencies": {
+    "async": "1.x",
+    "coffee-script": "1.10.x",
+    "lodash": "3.x",
+    "rimraf": "2.x",
+    "yargs": "4.x"
+  },
+  "devDependencies": {
+  },
+  "bin": "./index.js"
+}
